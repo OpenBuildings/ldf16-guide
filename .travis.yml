@@ -1,0 +1,24 @@
+sudo: false
+
+language: ruby
+rvm: 2.1
+
+branches:
+  only:
+  - gh-pages
+  - master
+
+notifications:
+  slack:
+    rooms:
+      secure: DipTNbWwBeaRHQMrsmGg3oKBrjbzCczpHg7ZsXTEmXq/6sXYr8ISjxT21VJYDyE7yD/NcQr39CP66OaL6jUighhTMrtBlka7//kvqCFRoRBa65NANC06XT4/3tYNzCvDPQbVfA3/Ikkbyck2xaWmSrl1W6iyDVV4hhr6umnpukA=
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation
+
+cache: bundler
+
+install: bundle install
+
+script: bundle exec jekyll build
