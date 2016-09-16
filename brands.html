@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="brands">
+    <h1 class="page-heading">Brands</h1>
+    <ul>
+    {% for brand in site.data.brands %}
+        <li>
+            <p>{{ brand.name }}</p>
+            <p>{{ brand.description }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
