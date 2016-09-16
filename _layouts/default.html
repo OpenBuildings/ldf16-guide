@@ -2,11 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
+<body id="menu">
+	{% include menu.html %}
+	<div class="wrapper">
     {{ content }}
-    {% include footer.html %}
+	</div>
 </body>
 </html>
