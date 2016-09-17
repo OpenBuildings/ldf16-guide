@@ -3,6 +3,7 @@
 ---
 @charset "utf-8";
 
+$base-url:         {{ site.baseurl }};
 $spacing-unit:     10px;
 
 $black:            #222;
@@ -80,7 +81,7 @@ $mobile:           450px;
 	left: 0;
 	right: $spacing-unit*6;
 	bottom: $spacing-unit*6;
-	background-image: url('/images/home_background.png');
+	background-image: url(#{$base-url}/images/home_background.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
