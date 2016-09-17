@@ -1,4 +1,5 @@
 - name: Arper
+  slug: arper
   description: Arper is an Italian company producing and distributing office, home and contract sector furniture worldwide.
   location: "Stand: W248"
   image: "/images/brands/arper.jpg"
