@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Maison Neue';
-    src: url('/fonts/maisonneue-medium.eot');
-    src: url('/fonts/maisonneue-medium.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/maisonneue-medium.woff2') format('woff2'),
-         url('/fonts/maisonneue-medium.woff') format('woff'),
-         url('/fonts/maisonneue-medium.ttf') format('truetype'),
-         url('/fonts/maisonneue-medium.svg#maison_neuemedium') format('svg');
+    src: url(#{$base-url}/fonts/maisonneue-medium.eot);
+    src: url(#{$base-url}/fonts/maisonneue-medium.eot?#iefix) format('embedded-opentype'),
+         url(#{$base-url}/fonts/maisonneue-medium.woff2) format('woff2'),
+         url(#{$base-url}/fonts/maisonneue-medium.woff) format('woff'),
+         url(#{$base-url}/fonts/maisonneue-medium.ttf) format('truetype'),
+         url(#{$base-url}/fonts/maisonneue-medium.svg#maison_neuemedium) format('svg');
     font-weight: 400;
     font-style: normal;
 }
