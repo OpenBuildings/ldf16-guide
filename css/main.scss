@@ -23,131 +23,162 @@ $mobile:           450px;
 
 
 .wrapper {
-	width: 100vw;
-	height: 100vh;
-	overflow: scroll;
-	-webkit-overflow-scrolling: touch;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .content {
-	position: relative;
-	transition: transform .4s ease;
-	min-height: 100vh;
-	width: 100vw;
-	overflow-x: hidden;
-	animation: zoom-out 1s ease;
+    position: relative;
+    transition: transform .4s ease;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    animation: zoom-out 1s ease;
+    background: $white;
+    padding-bottom: $spacing-unit*12;
 }
 
 @keyframes zoom-out {
-	0% { transform: scale(1.05); }
-	100% { transform: scale(1); }
+    0% { transform: scale(1.05); }
+    100% { transform: scale(1); }
 }
 
 .button {
-	display: block;
-	width: 70vw;
-	margin: $spacing-unit*2 auto;
-	height: 50px;
-	line-height: 50px;
-	border-radius: 3px;
-	box-shadow: $shadow;
-	transition: box-shadow .3s ease;
+    display: block;
+    width: 70vw;
+    margin: $spacing-unit*2 auto;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 3px;
+    box-shadow: $shadow;
+    transition: box-shadow .3s ease;
 }
 
 .button:active {
-	box-shadow: $shadow-pressed;
+    box-shadow: $shadow-pressed;
 }
 
 
 //Home
 
 .home h1 {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100vw;
-	padding: $spacing-unit*2.5 $spacing-unit*3.5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    padding: $spacing-unit*2.5 $spacing-unit*3.5;
 }
 
 .home h1>svg {
-	color: $black;
-	width: 100%;
-	height: auto;
+    color: $black;
+    width: 100%;
+    height: auto;
 }
 
 .home .cover {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: $spacing-unit*6;
-	bottom: $spacing-unit*6;
-	background-image: url(#{$base-url}/images/home_background.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: $spacing-unit*6;
+    bottom: $spacing-unit*6;
+    background-image: url(#{$base-url}/images/home_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 //Destinations
 
-.destination.cover h1 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	width: 100%;
-	color: $white;
+.destination.cover {
+    background-color: $black;
+}
+
+.destination.cover .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    color: $white;
+}
+
+.destination.cover .text svg {
+    margin-bottom: $spacing-unit*2;
+}
+
+.destination.cover .text .button {
+    background: rgba($white, 0.05);
 }
 
 .destination .cover-image {
-	position: fixed;
-	top: 0;
-	left: -10vw;
-	right: -10vw;
-	bottom: 0;
-	background-size: auto 100%;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	animation: slide 50s linear infinite;
+    position: fixed;
+    top: 0;
+    left: -10vw;
+    right: -10vw;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation: slide 50s linear infinite;
 }
 
 @keyframes slide {
-	0% { transform: translateX(-10vw); }
-	50% { transform: translateX(10vw); }
-	100% { transform: translateX(-10vw); }
+    0% { transform: translateX(-5vw); }
+    50% { transform: translateX(5vw); }
+    100% { transform: translateX(-5vw); }
 }
 
+//Destination Brands
+
 .destination.brands h1 {
-	margin: $spacing-unit*8 0 $spacing-unit*2 0;
+    margin: $spacing-unit*8 0 $spacing-unit*2 0;
 }
 
 .destination.brands h4 {
-	margin-bottom: $spacing-unit*4;
+    margin-bottom: $spacing-unit*4;
 }
 
 .destination.brands h5 {
-	margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit;
 }
 
 .destination.brands .brand-list {
-	list-style: none;
-}
-
-.destination.brands .brand-list>li {
-	padding-bottom: $spacing-unit*9;
+    list-style: none;
 }
 
 .destination.brands .brand-list>li p {
-	font-size: $small-font-size;
-	line-height: 1.4;
-	padding: 0 $spacing-unit*4;
+    font-size: $small-font-size;
+    line-height: 1.4;
+    padding: 0 $spacing-unit*4;
 }
 
 .destination.brands .brand-list>li .image {
-	width: 100%;
-	height: 300px;
-	margin: -$spacing-unit*2 0 $spacing-unit*2 0;
-	background-color: $lightgrey;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+    width: 100%;
+    height: 300px;
+    margin: -$spacing-unit*2 0 $spacing-unit*2 0;
+    background-color: $lightgrey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+//Destination Highlights
+
+.destination.highlights h1 {
+    padding: $spacing-unit*8 0 $spacing-unit*6 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: $white;
+    width: 100%;
+}
+
+.destination.highlights h3 {
+    margin: $spacing-unit*4 0 $spacing-unit*2 0;
+}
+
+.destination.highlights p {
+    font-size: $small-font-size;
+    line-height: 1.4;
+    padding: 0 $spacing-unit*4;
 }
