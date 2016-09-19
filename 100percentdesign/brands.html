@@ -15,7 +15,7 @@ layout: default
             <h2>{{ brand.name }}</h2>
             <div class="image" style="background-image: url('{{ site.baseurl }}{{ brand.image }}');"></div>
             <p>{{ brand.description }}</p>
-            <a class="button" href="https://clippings.com/{{ brand.name }}" target="_blank">Shop {{ brand.name }}</a>
+            <a class="button" href="https://clippings.com/{{ brand.slug }}" target="_blank">Shop {{ brand.name }}</a>
         </li>
     {% endfor %}
     </ul>
