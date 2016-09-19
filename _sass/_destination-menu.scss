@@ -1,34 +1,40 @@
 // Destination Menu
 
 .destination-menu {
-	background: $white;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 70px;
-	z-index: 10;
-	box-shadow: $shadow-pressed;
-	padding: 0 10px;
-	display: table;
-	width: 100%;
+    background: $white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    z-index: 10;
+    box-shadow: $shadow-pressed;
+    padding: 0 10px;
+    display: table;
+    width: 100%;
+    animation: slide-up 1s ease;
+}
+
+@keyframes slide-up {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(0); }
 }
 
 .destination-menu>li {
-	display: table-cell;
+    display: table-cell;
 }
 
 .destination-menu>li>a {
-	height: 70px;
-	line-height: 70px;
-	display: block;
+    height: 70px;
+    line-height: 70px;
+    display: block;
 }
 
 .hollow .destination-menu {
-	background: none;
-	box-shadow: none;
+    background: none;
+    box-shadow: none;
 }
 
 .hollow .destination-menu>li>a {
-	color: $white;
+    color: $white;
 }
