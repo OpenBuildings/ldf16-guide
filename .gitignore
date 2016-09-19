@@ -1,3 +1,10 @@
+# System files just in case
+# Useful global Git ignore file is encouraged
+# https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
+# https://gist.github.com/octocat/9257657
+.DS_Store
+~*
+
 _site/
 .sass-cache/
 .jekyll-metadata
