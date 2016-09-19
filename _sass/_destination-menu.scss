@@ -13,6 +13,7 @@
     display: table;
     width: 100%;
     animation: slide-up 1s ease;
+    transition: transform .4s ease;
 }
 
 @keyframes slide-up {
