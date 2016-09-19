@@ -1,17 +1,19 @@
 // Menu
 
 .menu {
-    width: 100vw;
-    height: 100vh;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    height: 100vh;
     background: $white;
     z-index: 100;
     transform: translateX(100vw);
     transition: transform .4s ease;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    z-index: 200;
 }
 
 .menu>ul {
@@ -70,10 +72,9 @@
 }
 
 .menu-close {
-    position: fixed;
-    bottom: $spacing-unit*10;
-    left: 50%;
-    transform: translateX(-50%) scale(0.8) rotate(-30deg);
+    display: block;
+    transform: scale(0.8) rotate(-30deg);
+    margin: $spacing-unit*2 auto;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -93,12 +94,12 @@
 }
 
 .menu .footer {
-    position: fixed;
-    bottom: 0;
     height: 60px;
     line-height: 60px;
     display: table;
     width: 100%;
+    max-width: 400px;
+    margin: auto;
     padding: 0 $spacing-unit*10;
 }
 
@@ -112,7 +113,6 @@
 
 #menu:target .menu {
     transform: translateX(0);
-    box-shadow: $shadow;
 }
 
 #menu:target .content {
@@ -133,7 +133,7 @@
 }
 
 #menu:target .menu-close {
-    transform: translateX(-50%) scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
     opacity: 1;
     transition: box-shadow .3s ease, transform 1s ease, opacity 1s ease;
     transition-delay: .6s;
