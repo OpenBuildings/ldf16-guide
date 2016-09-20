@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<style>.menu-open>span.label { display: none; } .destination-menu>li:nth-child(1)>a { opacity: 1; }</style>
+
+<div class="content destination highlights">
+
+    <h1 style="background-image: url('{{ site.baseurl }}/images/thelondondesignfair_background.jpg');">The London Design Fair<br>?<br>21-24 Sept.</h1>
+    <ul class="brand-list">
+    {% for highlight in site.data.thelondondesignfair_highlights %}
+        <li>
+            <h3>{{ highlight.name }}</h3>
+            <p>{{ highlight.description }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+
+</div>
+
+{% include destination-menu.html %}

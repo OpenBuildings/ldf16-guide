@@ -95,7 +95,7 @@ html {
 }
 
 
-//Destinations
+//Destination Cover
 
 .destination.cover {
     background-color: $black;
@@ -107,6 +107,7 @@ html {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 100%;
+    padding: $spacing-unit*4;
     color: $white;
 }
 
@@ -127,7 +128,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    animation: slide 50s linear infinite;
+    animation: slide 40s linear infinite;
 }
 
 @keyframes slide {
@@ -140,6 +141,7 @@ html {
 
 .destination.brands h1 {
     margin: $spacing-unit*8 0 $spacing-unit*2 0;
+    padding: 0 $spacing-unit*4;
 }
 
 .destination.brands h4 {
@@ -176,7 +178,7 @@ html {
 //Destination Highlights
 
 .destination.highlights h1 {
-    padding: $spacing-unit*8 0 $spacing-unit*6 0;
+    padding: $spacing-unit*8 $spacing-unit*4 $spacing-unit*6 $spacing-unit*4;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
