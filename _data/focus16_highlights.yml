@@ -1,2 +1,6 @@
-- name: Coming Soon
-  description:
+- name: Showrooms
+  description: "Chelsea Harbour is home to some of the industry's most established brands. Be sure to take in Patricia Urquiola's latest armchair at Cassina, Antonio Citterio's leather-corded bench at Flexform and the elegant new Twelve-Day bed at Gallotti & Radice."
+- name: Access All Areas
+  description: This range of informal artisan demonstrations, meet-the-designer sessions and discussions offers showroom visitors insights as to how a product comes about, what materials are used, where they are sourced and how they are made.
+- name: Art & Interiors
+  description: Noting the increasingly close relationship between art and interior design, arts editor Sophie Hastings asked 30 international designers to nominate a piece of contemporary art that has inspired them for this exhibition.
