@@ -1,5 +1,10 @@
-- name: Highlight Name
-  description: Before joining Elicyon, Cecilia was part of the design team at Candy and Candy and Morpheus London, where she gained valuable insight and experience in all aspects of interior design. While there she successfully completed assignments within both the luxury residential and developments market. She can include such prestigious projects as a Belgravia townhouse, an Holland Park house, several apartments within the highly regarded One Hyde Park, a house in Beverly Hills and a lateral penthouse apartment which overlooks Central Park set within The Private Residences section of the Plaza Hotel in New York.
-
-- name: Highlight Name
-  description: Before joining Elicyon, Cecilia was part of the design team at Candy and Candy and Morpheus London, where she gained valuable insight and experience in all aspects of interior design. While there she successfully completed assignments within both the luxury residential and developments market. She can include such prestigious projects as a Belgravia townhouse, an Holland Park house, several apartments within the highly regarded One Hyde Park, a house in Beverly Hills and a lateral penthouse apartment which overlooks Central Park set within The Private Residences section of the Plaza Hotel in New York.
+- name: Cubbit House
+  description: First stop for product sourcing at designjunction, the specially constructed Cubbit House features over 100 furniture brands showing off their latest pieces including Bethan Gray, deadgood and Another Country.
+- name: Lightjunction
+  description: Situated on the ground floor of Cubbit House, Lightjunction showcases the best in new lighting from established and emerging brands. Look out for Northern Lighting, Cameron Peters, Tala and In-es.artdesign.
+- name: "King's Cross Creative Quarter"
+  description: "Running alongside designjunction, the King's Cross Creative Quarter brings together temporary exhibitions, architectural landmarks and cultural institutions with the restaurants and hotels of this upcoming district."
+- name: Dyslexic Design
+  description: The Dyslexic Design exhibition explores the complex connection between dyslexia and creativity with a showcase of work by dyslexic designers including Jim Rokos, Tom Raffield and Terence Woodgate.
+- name: BIID Breakfast Tour
+  description: Members of the BIID are invited to access designjunction before the crowds arrive on Friday morning at 8.30am, with complimentary breakfast and tour of top show highlights led by the team behind this guide.
