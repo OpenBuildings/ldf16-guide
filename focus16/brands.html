@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<style>.menu-open>span.label { display: none; } .destination-menu>li:nth-child(2)>a { opacity: 1; }</style>
+
+<div class="content destination brands">
+
+    <h1>Focus/16<br>Chelsea Harbour<br>21-24 Sept.</h1>
+    <h4>Selected exhibiting brands:</h4>
+    <ul class="brand-list">
+    {% for brand in site.data.focus16_brands %}
+        <li>
+        	<h5>{{ brand.location }}</h5>
+            <h2>{{ brand.name }}</h2>
+            <div class="image" style="background-image: url('{{ site.baseurl }}{{ brand.image }}');"></div>
+            <p>{{ brand.description }}</p>
+            <a class="button" href="https://clippings.com/{{ brand.slug }}" target="_blank">Shop {{ brand.name }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+
+</div>
+
+{% include destination-menu.html %}
