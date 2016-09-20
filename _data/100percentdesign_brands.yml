@@ -1,5 +1,56 @@
-- name: Arper
-  slug: arper
-  description: Arper is an Italian company producing and distributing office, home and contract sector furniture worldwide.
-  location: "Stand: W248"
-  image: "/images/brands/arper.jpg"
+- name: AXEL VEIT
+  slug: axel-veit
+  description: Modernism at its best Axel Veit‘s furniture collections play with familiar style elements reinterpreting them into state-of-the-art singular design pieces.
+  location: L611
+- name: BELUX
+  slug: belux
+  description: BELUX develops and manufactures lamps for office and home environments.
+  location: E102
+- name: designheure
+  slug: designheure
+  description: "AWARDS: Widely recognized for its innovative lighting and projection design, Designheure continues its development by creating and editing contemporary lighting with the touch of uniqueness and functionality that are its signature."
+  location: L420
+- name: Framery
+  slug: framery
+  description: FRAMERY is an entrepreneur-driven, Finnish Phone Booth Company established in 2010 in Tampere, Finland by Samu Hällfors and Vesa-Matti Marjamäki.
+  location: W235
+- name: Interface
+  slug: interface
+  description: An Introduction to Interface Founded in 1973, Interface is a global leader in the design and production of carpet tiles.
+  location: CP12
+- name: James UK
+  slug: james
+  description: We produce unique, high end, design-led furniture and interior products with a distinctive focus on quality hardwoods and upholstery.
+  location: DL5
+- name: Johanson
+  slug: johanson
+  description: Swedish furniture design conquers the world A conscious and consistent focus on modern, timeless design with clean, Scandinavian lines has made Johanson Design a strong global brand.
+  location: W540
+- name: Jori
+  slug: jori
+  description: JORI, founded in 1963, is a Belgian company that is specialised in high-quality and contemporary leather seating furniture.
+  location: L326
+- name: Massproductions
+  slug: massproductions
+  description: Massproductions is a Stockholm based furniture company, run by experienced designers Chris Martin and Magnus Elebäck.
+  location: DL8
+- name: MDD
+  slug: mdd
+  description: More than 2 decades ago, MDD was born with the objective of bringing a fresh breeze to the office furniture sector.
+  location: E280
+- name: Mineheart
+  slug: mineheart
+  description: The pieces in the collection are selected to inspire us, many tell a story, express a poetic notion, a thought or an experiment, others just make us smile!
+  location: L510
+- name: Original BTC
+  slug: original-btc
+  description: Original BTC offers a diverse and unique range of lighting designs, drawing inspiration from Britain’s rich post-industrialisation history as well as incorporating modern tastes and trends with our very latest innovative designs.
+  location: L411
+- name: Ornamenta
+  slug: ornamenta
+  description: ORNAMENTA ®, member of Confindustria Ceramica, is a modern production company that is spread over an area of over 30,000 square meters with technologically advanced production facilities and a R&D dpt.
+  location: E830
+- name: Varaschin
+  slug: varaschin
+  description: New style frontiers. Varaschin We re-discover history to create the future.
+  location: L329
