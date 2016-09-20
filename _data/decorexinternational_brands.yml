@@ -1,5 +1,40 @@
-- name: Arper
-  slug: arper
-  description: Arper is an Italian company producing and distributing office, home and contract sector furniture worldwide.
-  location: "Stand: W248"
-  image: "/images/brands/arper.jpg"
+- name: Alki
+  slug: alki
+  description: Alki is a unique company specializing in furniture manufacturing since 1982.
+  location: C42
+- name: Blackpop
+  slug: blackpop
+  description: Maxine Hall is the Director/Designer at Blackpop. Blackpop create lavish & luxurious wallpapers, each design flushed with faded grandeur & contemporary twists.
+  location: B41A
+- name: Brand van Egmond
+  slug: brand-van-egmond
+  description: BRAND VAN EGMOND® was founded in 1989. William Brand (Owner/Designer) graduated at the Utrecht School of Arts in The Netherlands as an architect /sculptor He is a pioneering artists, with a passion for objects and design.
+  location: G21
+- name: Domus
+  slug: domus
+  description: What We Stand For Ever since its founding in 1966, DOMUS Light is all about the dedicated, competent and passionate development of new products.
+  location: J37
+- name: Johanna Gullichsen
+  slug: johanna-gullichsen
+  description: Johanna Gullichsen Textile Craft & Design offers an extensive range of woven textiles for modern living.
+  location: K58
+- name: Laurameroni
+  slug: laurameroni
+  description: In 1998 Laurameroni design collection was just a project, a difficult undertaking, a risky and at the same time irresistible call, but where the main guidelines had already been clearly defined.
+  location: H29
+- name: Martin Huxford Studio
+  slug: martin-huxford-studio
+  description: Martin Huxford Studio is a British designer manufacturer, specialising in unique, individually hand built decorative lights and furniture.
+  location: D18
+- name: Mineheart
+  slug: mineheart
+  description: The pieces in the collection are selected to inspire us, many tell a story, express a poetic notion, a thought or an experiment, others just make us smile!
+  location: D16
+- name: Petite Friture
+  slug: petite-friture
+  description: A French design manufacturer established in 2009, Petite Friture aims to produce objects that create a spark, designed by emerging talents.
+  location: D43
+- name: Phil Cuttance
+  slug: phil-cuttance
+  description: Phil Cuttance makes unique objects for the home by devising original manufacturing methods. His work celebrates the process behind a product.
+  location: F2
