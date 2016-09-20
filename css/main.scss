@@ -8,7 +8,7 @@ $spacing-unit:     10px;
 
 $black:            #222;
 $grey:             #7f7f7f;
-$lightgrey:        #ddd;
+$lightgrey:        #f7f7f7;
 $white:            #fff;
 
 $shadow:           0px 4px 10px 0px rgba(0,0,0,0.2);
@@ -145,6 +145,10 @@ html {
     padding: 0 $spacing-unit*4;
 }
 
+.destination.brands h2 {
+    padding: 0 $spacing-unit*4;
+}
+
 .destination.brands h4 {
     margin-bottom: $spacing-unit*4;
 }
@@ -179,6 +183,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    background-blend-mode: multiply;
 }
 
 //Destination Highlights
