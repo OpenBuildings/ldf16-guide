@@ -33,6 +33,7 @@ html {
 .content {
     position: relative;
     transition: transform .4s ease, border-radius .4s ease, opacity .4s ease;
+    transform-origin: 50% 200px;
     min-height: 100vh;
     width: 100%;
     overflow-x: hidden;
@@ -150,10 +151,15 @@ html {
 
 .destination.brands h5 {
     margin-bottom: $spacing-unit;
+    padding: 0 $spacing-unit*4;
 }
 
 .destination.brands .brand-list {
     list-style: none;
+}
+
+.destination.brands .brand-list>li {
+    margin-bottom: $spacing-unit*8;
 }
 
 .destination.brands .brand-list>li p {
