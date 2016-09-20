@@ -64,7 +64,26 @@ html {
 }
 
 
-//Home
+//About
+
+.about {
+    background: $black;
+    color: $white;
+    padding: $spacing-unit*10 $spacing-unit*4;
+}
+
+.about p {
+    margin-bottom: $spacing-unit*2;
+    font-size: $large-font-size*.8;
+}
+
+.about .button {
+    background: rgba($white, 0.05);
+    width: 100%;
+}
+
+
+//Index
 
 .home h1 {
     position: fixed;

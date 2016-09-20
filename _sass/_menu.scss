@@ -100,7 +100,7 @@
     display: table;
     width: 100%;
     max-width: 400px;
-    margin: auto;
+    margin: 0 auto $spacing-unit*6 auto;
     padding: 0 $spacing-unit*10;
 }
 
