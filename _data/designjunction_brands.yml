@@ -2,6 +2,58 @@
   slug: bethangray
   description: Inspired by her travels and the everyday objects around her, Bethan has a particular passion for the warmth of wood and leather, as well as the appeal of stone.
   image: "/images/brands/bethan-gray.jpg"
+- name: Northern Lighting
+  slug: northern-lighting
+  description: Imagine a creative force led by original ideas, in a place where traditional design seems like a thing of the past.
+  image: "/images/brands/northern-lighting.jpg"
+- name: in-es.artdesign
+  slug: inesartdesign
+  description: Art and design for interiors (in) and exteriors (es), light and shadow become one, to give shape to lamps and elements for the decoration of interiors and exteriors.
+  image: "/images/brands/inesartdesign.jpg"
+- name: Deadgood
+  slug: deadgood
+  description: 'We like to think of it as developing ''products with personality''...'
+  image: "/images/brands/deadgood.jpg"
+- name: We Do Wood
+  slug: we-do-wood
+  description: We Do Wood is a Danish furniture company established in 2006 by the two furniture makers and designers Henrik Thygesen and Sebastian Jørgensen.
+  image: "/images/brands/we-do-wood.jpg"
+- name: Korridor
+  slug: korridor
+  description: Korridor is a contemporary Danish design brand inspired by the world of art.
+  image: "/images/brands/korridor.jpg"
+- name: Tala
+  slug: tala
+  description: 'With an emphasis on quality, environmentally-friendly components and innovative geometric design patterns, Tala has brought to market some of the world''s most beautiful, high-performance LED lights.'
+  image: "/images/brands/tala.jpg"
+- name: Nick Fraser
+  slug: nick-fraser
+  description: He focuses on producing quality objects that are individual and made to last, often incorporating familiar everyday objects or components in surprising ways.
+  image: "/images/brands/nick-fraser.jpg"
+- name: VERENA HENNIG
+  slug: verenahennig
+  description: German product design brand VERENA HENNIG creates innovative furniture for the everyday use.
+  image: "/images/brands/verenahennig.jpg"
+- name: Room-9
+  slug: room-9
+  description: Room 9 design and produce contemporary furniture, lighting and interior accessories exclusively in the UK.
+  image: "/images/brands/room-9.jpg"
+- name: Tamasine Osher Design
+  slug: tamasineosherdesign
+  description: Made in Britain. The intention is to rekindle the human relationship with objects, encouraging an interaction of the visual with the tactile, expressing the simplicity of materials and honest construction.
+  image: "/images/brands/tamasineosherdesign.jpg"
+- name: Jonna Saarinen
+  slug: jonna-saarinen
+  description: Hundreds & Thousands! The story behind the Hundreds & Thousands collection by Jonna Saarinen started long ago when she was growing up by the sea in southwest Finland.
+  image: "/images/brands/jonna-saarinen.jpg"
+- name: TON
+  slug: ton
+  description: Our company We manufacture furniture using a manual bending technique at the place, where this tradition began in 1861.
+  image: "/images/brands/ton.jpg"
+- name: Lammhults
+  slug: lammhults
+  description: 'To find the source of Lammhult Möbels highly-respected quality, you need only to travel 450 kilometers south of Stockholm to the village of Lammhult, in the heart of Sweden''s "Kingdom of Furniture".'
+  image: "/images/brands/lammhults.jpg"
 - name: Brokis
   slug: brokis
   description: BROKIS – a synthesis of exquisite design, superior quality, and the remarkable craftsmanship of Bohemian glass artisans.
@@ -10,10 +62,6 @@
   slug: dcw-editions
   description: It is our passion for objects that led us to create DCW.
   image: "/images/brands/dcw-editions.jpg"
-- name: Deadgood
-  slug: deadgood
-  description: 'We like to think of it as developing ''products with personality''...'
-  image: "/images/brands/deadgood.jpg"
 - name: Design House Stockholm
   slug: design-house-stockholm
   description: Design House Stockholm is a publisher of design, working in the same way with designers that publishing houses work with authors.
@@ -22,55 +70,7 @@
   slug: ethnicraft
   description: For 15 years, we have been producing timeless furniture from solid teak and oak.
   image: "/images/brands/ethnicraft.jpg"
-- name: in-es.artdesign
-  slug: inesartdesign
-  description: Art and design for interiors (in) and exteriors (es), light and shadow become one, to give shape to lamps and elements for the decoration of interiors and exteriors.
-  image: "/images/brands/inesartdesign.jpg"
-- name: Jonna Saarinen
-  slug: jonna-saarinen
-  description: Hundreds & Thousands! The story behind the Hundreds & Thousands collection by Jonna Saarinen started long ago when she was growing up by the sea in southwest Finland.
-  image: "/images/brands/jonna-saarinen.jpg"
-- name: Korridor
-  slug: korridor
-  description: Korridor is a contemporary Danish design brand inspired by the world of art.
-  image: "/images/brands/korridor.jpg"
-- name: Lammhults
-  slug: lammhults
-  description: 'To find the source of Lammhult Möbels highly-respected quality, you need only to travel 450 kilometers south of Stockholm to the village of Lammhult, in the heart of Sweden''s "Kingdom of Furniture".'
-  image: "/images/brands/lammhults.jpg"
 - name: Made By Hand
   slug: made-by-hand
   description: Made By Hand is a Danish design brand with a passion for craftsmanship and timeless refined products – offering a sense of harmony and comfort to everyday life.
   image: "/images/brands/made-by-hand.jpg"
-- name: Nick Fraser
-  slug: nick-fraser
-  description: He focuses on producing quality objects that are individual and made to last, often incorporating familiar everyday objects or components in surprising ways.
-  image: "/images/brands/nick-fraser.jpg"
-- name: Northern Lighting
-  slug: northern-lighting
-  description: Imagine a creative force led by original ideas, in a place where traditional design seems like a thing of the past.
-  image: "/images/brands/northern-lighting.jpg"
-- name: Room-9
-  slug: room-9
-  description: Room 9 design and produce contemporary furniture, lighting and interior accessories exclusively in the UK.
-  image: "/images/brands/room-9.jpg"
-- name: TON
-  slug: ton
-  description: Our company We manufacture furniture using a manual bending technique at the place, where this tradition began in 1861.
-  image: "/images/brands/ton.jpg"
-- name: Tala
-  slug: tala
-  description: 'With an emphasis on quality, environmentally-friendly components and innovative geometric design patterns, Tala has brought to market some of the world''s most beautiful, high-performance LED lights.'
-  image: "/images/brands/tala.jpg"
-- name: Tamasine Osher Design
-  slug: tamasineosherdesign
-  description: Made in Britain. The intention is to rekindle the human relationship with objects, encouraging an interaction of the visual with the tactile, expressing the simplicity of materials and honest construction.
-  image: "/images/brands/tamasineosherdesign.jpg"
-- name: VERENA HENNIG
-  slug: verenahennig
-  description: German product design brand VERENA HENNIG creates innovative furniture for the everyday use.
-  image: "/images/brands/verenahennig.jpg"
-- name: We Do Wood
-  slug: we-do-wood
-  description: We Do Wood is a Danish furniture company established in 2006 by the two furniture makers and designers Henrik Thygesen and Sebastian Jørgensen.
-  image: "/images/brands/we-do-wood.jpg"

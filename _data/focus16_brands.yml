@@ -3,16 +3,6 @@
   description: A first mover for contemporary design.
   location: Second Floor North & Centre Domes
   image: "/images/brands/cassina.jpg"
-- name: Gallotti & Radice
-  slug: gallottiradice
-  description: "Gallotti & Radice was the first company in Italy to experiment with and promote, as far back as the Fifties, the love for the study and use of an extraordinary material in the furnishing sector: crystal."
-  location: Second Floor, North Dome
-  image: "/images/brands/gallottiradice.jpg"
-- name: Giorgetti
-  slug: giorgetti
-  description: The able and patient hands of artisans shape wood, piece after piece, at their work stations; in the air you can smell the sweet perfume of the raw material which harks back to carpentry workshops of long ago.
-  location: First Floor, Centre Dome
-  image: "/images/brands/giorgetti.jpg"
 - name: Original BTC
   slug: original-btc
   description: Original BTC offers a diverse and unique range of lighting designs, drawing inspiration from Britain’s rich post-industrialisation history as well as incorporating modern tastes and trends with our very latest innovative designs.
@@ -28,3 +18,13 @@
   description: An international brand name representing the design, elegance and perfection of Italian-made products.
   location: Second Floor, North & Centre Domes
   image: "/images/brands/poltrana-frau.jpg"
+- name: Gallotti & Radice
+  slug: gallottiradice
+  description: "Gallotti & Radice was the first company in Italy to experiment with and promote, as far back as the Fifties, the love for the study and use of an extraordinary material in the furnishing sector: crystal."
+  location: Second Floor, North Dome
+  image: "/images/brands/gallottiradice.jpg"
+- name: Giorgetti
+  slug: giorgetti
+  description: The able and patient hands of artisans shape wood, piece after piece, at their work stations; in the air you can smell the sweet perfume of the raw material which harks back to carpentry workshops of long ago.
+  location: First Floor, Centre Dome
+  image: "/images/brands/giorgetti.jpg"

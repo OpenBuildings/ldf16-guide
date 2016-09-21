@@ -1,60 +1,60 @@
-- name: Branca-Lisboa
-  slug: branca-lisboa
-  description: BRANCA is a Portuguese Design label for the home, art directed by Marco Sousa Santos.
-  location: Stand Portugal Design Pavilion, Hall Super Brands London
-  image: "/images/brands/branca-lisboa.jpg"
-- name: Camilla Engdahl
-  slug: camilla-engdahl
-  description: '"At the same time both hard work and great fun!", says Camilla Engdahl, ceramic artist and designer with studio and workshop in Skövde (central part of Sweden)!'
-  location: Stand Nordic Design Collective, Hall T2
-  image: "/images/brands/camilla-engdahl.jpg"
-- name: Custhom
-  slug: custhom-design
-  description: They founded Custhom in 2009, counting on their talent, vision, expertise and uncompromising attention to detail.
-  location: Stand S94, Hall Super Brands London
-  image: "/images/brands/custhom.jpg"
-- name: Emodi
-  slug: emodi
-  description: Emodi create unique furniture from reclaimed wood that promotes good design and celebrates the best qualities of wood.
-  location: Stand Nature Lab, Hall British Craft Pavilion
-  image: "/images/brands/emodi.jpg"
 - name: GALULA
   slug: galula
   description: Galula is the Portuguese word for something tasty to eat, they don’t want people eating the pieces, but instead create a huge appetite for them! The motivation is the smile and the happiness of the people.↵They want to prove that beyond functional design can be fun - follow the Fun-ction is the motto!
   location: Stand Portugal Design Pavilion, Hall Super Brands London
   image: "/images/brands/galula.jpg"
-- name: M Dex Design
-  slug: miles-dexter
-  description: Design studio based in Sheffield in the UK, we have a 3 word ethos, Individual, Creative, Quality
-  location: Stand G13, Hall T1
-  image: "/images/brands/miles-dexter.jpg"
 - name: One Foot Taller
   slug: onefoottaller
   description: Established in 1995, One Foot Taller is an award winning international design company Based in Scotland.
   location: Stand E09, Hall T1
   image: "/images/brands/onefoottaller.jpg"
-- name: Poiat
-  slug: poiat
-  description: We promise you extreme comfortability, spectacular beauty and quality that last from father to son...
-  location: Stand K21, Hall T5
-  image: "/images/brands/poiat.jpg"
 - name: Tanti Design
   slug: tanti-design
   description: "Innovation is at the heart of our design process: we borrow from established practises of mass production, dissecting and reinventing them to offer something new and personal which celebrates the innate qualities of these woods."
   location: Stand 3, Hall British Craft Pavilion
   image: "/images/brands/tanti-design.jpg"
-- name: Thelermont Hupton
-  slug: thelermont-hupton
-  description: After years working successfully in disciplines far removed from design we independently trained in fine cabinet making.
-  location: Stand 3, Hall British Craft Pavilion
-  image: "/images/brands/thelermont-hupton.jpg"
-- name: Utology
-  slug: utology
-  description: We aim to create timeless pieces that are valued and cherished by putting craftsmanship and functionality at the forefront of the design and making process.
-  location: Stand 3, Hall British Craft Pavilion
-  image: "/images/brands/utology.jpg"
 - name: Wewood
   slug: wewood
   description: We believe that everything we do at Wewood is driven by an unwavering passion for creating a product of excellence.
   location: Stand 3, Hall British Craft Pavilion
   image: "/images/brands/wewood.jpg"
+- name: Custhom
+  slug: custhom-design
+  description: They founded Custhom in 2009, counting on their talent, vision, expertise and uncompromising attention to detail.
+  location: Stand S94, Hall Super Brands London
+  image: "/images/brands/custhom.jpg"
+- name: Utology
+  slug: utology
+  description: We aim to create timeless pieces that are valued and cherished by putting craftsmanship and functionality at the forefront of the design and making process.
+  location: Stand 3, Hall British Craft Pavilion
+  image: "/images/brands/utology.jpg"
+- name: Thelermont Hupton
+  slug: thelermont-hupton
+  description: After years working successfully in disciplines far removed from design we independently trained in fine cabinet making.
+  location: Stand 3, Hall British Craft Pavilion
+  image: "/images/brands/thelermont-hupton.jpg"
+- name: M Dex Design
+  slug: miles-dexter
+  description: Design studio based in Sheffield in the UK, we have a 3 word ethos, Individual, Creative, Quality
+  location: Stand G13, Hall T1
+  image: "/images/brands/miles-dexter.jpg"
+- name: Emodi
+  slug: emodi
+  description: Emodi create unique furniture from reclaimed wood that promotes good design and celebrates the best qualities of wood.
+  location: Stand Nature Lab, Hall British Craft Pavilion
+  image: "/images/brands/emodi.jpg"
+- name: Camilla Engdahl
+  slug: camilla-engdahl
+  description: '"At the same time both hard work and great fun!", says Camilla Engdahl, ceramic artist and designer with studio and workshop in Skövde (central part of Sweden)!'
+  location: Stand Nordic Design Collective, Hall T2
+  image: "/images/brands/camilla-engdahl.jpg"
+- name: Poiat
+  slug: poiat
+  description: We promise you extreme comfortability, spectacular beauty and quality that last from father to son...
+  location: Stand K21, Hall T5
+  image: "/images/brands/poiat.jpg"
+- name: Branca-Lisboa
+  slug: branca-lisboa
+  description: BRANCA is a Portuguese Design label for the home, art directed by Marco Sousa Santos.
+  location: Stand Portugal Design Pavilion, Hall Super Brands London
+  image: "/images/brands/branca-lisboa.jpg"
