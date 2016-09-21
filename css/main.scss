@@ -82,6 +82,22 @@ html {
     border-bottom: 2px solid $white;
 }
 
+.about h4 {
+    margin-top: $spacing-unit*4;
+}
+
+.about span.phone {
+    display: block;
+    margin: auto;
+    border: 2px solid $white;
+    border-radius: 5px;
+    width: 28px;
+    height: 45px;
+    font-size: $base-font-size;
+    line-height: 75px;
+    margin-top: $spacing-unit;
+}
+
 
 //Index
 

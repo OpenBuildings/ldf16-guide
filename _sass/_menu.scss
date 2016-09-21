@@ -102,6 +102,10 @@
     max-width: 400px;
     margin: 0 auto $spacing-unit*6 auto;
     padding: 0 $spacing-unit*10;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all .01s;
+    transition-delay: .5s;
 }
 
 .menu .footer a {
@@ -145,4 +149,10 @@
     opacity: 1;
     transition: box-shadow .3s ease, transform 1s ease, opacity 1s ease;
     transition-delay: .6s;
+}
+
+#menu:target .menu .footer {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s ease .8s;
 }
