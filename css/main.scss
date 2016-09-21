@@ -73,13 +73,13 @@ html {
 }
 
 .about p {
-    margin-bottom: $spacing-unit*2;
-    font-size: $large-font-size*.8;
+    font-size: $base-font-size;
+    max-width: 600px;
+    margin: 0 auto $spacing-unit*2 auto;
 }
 
-.about .button {
-    background: rgba($white, 0.05);
-    width: 100%;
+.about p>a {
+    border-bottom: 2px solid $white;
 }
 
 
