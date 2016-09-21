@@ -12,6 +12,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/images/favicon-152.png">
     <link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ site.baseurl }}/images/favicon-180.png">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    <link rel="manifest" href="{{ site.baseurl }}/manifest.webmanifest">
     <script type="text/javascript">
         (function(document,navigator,standalone) {
             // prevents links from apps from oppening in mobile safari
@@ -47,5 +48,12 @@
 	<div class="wrapper">
     {{ content }}
 	</div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/basic-cache-service-worker.js', {
+                scope: '/'
+            });
+        }
+    </script>
 </body>
 </html>

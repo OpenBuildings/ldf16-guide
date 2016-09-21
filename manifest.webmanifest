@@ -1,0 +1,46 @@
+---
+---
+{
+    "short_name": "LDF16",
+    "name": "Insider's Guide LDF by Clippings.com",
+    "description": "A mobile guide to LDF 2016 with the best locations and brands to explore",
+    "icons": [
+        {
+            "src": "images/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "images/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "images/favicon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "images/favicon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "images/favicon-180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "images/favicon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "lang": "en-GB",
+    "dir": "ltr",
+    "orientation": "portrait-primary",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "start_url": "./?utm_source=web_app_manifest",
+    "display": "standalone"
+}
