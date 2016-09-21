@@ -28,3 +28,5 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 # theme: minima
+
+exclude: ['certs', 'README.md', 'Gemfile', 'Gemfile.lock', 'LICENSE', 'CNAME']
