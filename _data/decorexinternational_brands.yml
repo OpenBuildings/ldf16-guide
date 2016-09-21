@@ -1,13 +1,33 @@
-- name: Alki
-  slug: alki
-  description: Alki is a unique company specializing in furniture manufacturing since 1982.
-  location: C42
-  image: "/images/brands/alki.jpg"
+- name: Petite Friture
+  slug: petite-friture
+  description: A French design manufacturer established in 2009, Petite Friture aims to produce objects that create a spark, designed by emerging talents.
+  location: D43
+  image: "/images/brands/petite-friture.jpg"
+- name: Tom Raffield
+  slug: tomraffield
+  description: Handcrafted wooden lighting and designer furniture made in Cornwall.
+  location: E27
+  image: "/images/brands/tomraffield.jpg"
+- name: Phil Cuttance
+  slug: phil-cuttance
+  description: Phil Cuttance makes unique objects for the home by devising original manufacturing methods. His work celebrates the process behind a product.
+  location: F2
+  image: "/images/brands/phil-cuttance.jpg"
+- name: Mineheart
+  slug: mineheart
+  description: The pieces in the collection are selected to inspire us, many tell a story, express a poetic notion, a thought or an experiment, others just make us smile!
+  location: D16
+  image: "/images/brands/mineheart.jpg"
 - name: Blackpop
   slug: blackpop
   description: Maxine Hall is the Director/Designer at Blackpop. Blackpop create lavish & luxurious wallpapers, each design flushed with faded grandeur & contemporary twists.
   location: B41A
   image: "/images/brands/blackpop.jpg"
+- name: Alki
+  slug: alki
+  description: Alki is a unique company specializing in furniture manufacturing since 1982.
+  location: C42
+  image: "/images/brands/alki.jpg"
 - name: Brand van Egmond
   slug: brand-van-egmond
   description: BRAND VAN EGMOND® was founded in 1989. William Brand (Owner/Designer) graduated at the Utrecht School of Arts in The Netherlands as an architect /sculptor He is a pioneering artists, with a passion for objects and design.
@@ -33,18 +53,3 @@
   description: Martin Huxford Studio is a British designer manufacturer, specialising in unique, individually hand built decorative lights and furniture.
   location: D18
   image: "/images/brands/martin-huxford-studio.jpg"
-- name: Mineheart
-  slug: mineheart
-  description: The pieces in the collection are selected to inspire us, many tell a story, express a poetic notion, a thought or an experiment, others just make us smile!
-  location: D16
-  image: "/images/brands/mineheart.jpg"
-- name: Petite Friture
-  slug: petite-friture
-  description: A French design manufacturer established in 2009, Petite Friture aims to produce objects that create a spark, designed by emerging talents.
-  location: D43
-  image: "/images/brands/petite-friture.jpg"
-- name: Phil Cuttance
-  slug: phil-cuttance
-  description: Phil Cuttance makes unique objects for the home by devising original manufacturing methods. His work celebrates the process behind a product.
-  location: F2
-  image: "/images/brands/phil-cuttance.jpg"
