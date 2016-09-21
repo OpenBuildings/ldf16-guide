@@ -1,5 +1,6 @@
 ---
 ---
 User-agent: *
-Disallow: /
+{% for node in site.pages %}{% if node.noindex %}{% assign isset = true %}Disallow: {{ node.url }}
+{% endif %}{% endfor %}
 Sitemap: {{ site.url }}/sitemap.xml
