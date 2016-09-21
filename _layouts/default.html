@@ -48,5 +48,12 @@
 	<div class="wrapper">
     {{ content }}
 	</div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/basic-cache-service-worker.js', {
+                scope: '/'
+            });
+        }
+    </script>
 </body>
 </html>
